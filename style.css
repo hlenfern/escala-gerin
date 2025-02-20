@@ -1,5 +1,5 @@
-/* Reset e Fonte */
-* {
+
+ {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,7 +17,7 @@ body {
     padding: 20px;
 }
 
-/* Cartão Principal */
+
 .container {
     width: 90%;
     max-width: 800px;
@@ -29,7 +29,6 @@ body {
     color: #2c3e50;
 }
 
-/* Títulos */
 h2 {
     font-size: 24px;
     color: #8e44ad;
@@ -43,7 +42,6 @@ h3 {
     color: #555;
 }
 
-/* Tabela */
 table {
     width: 100%;
     margin-top: 20px;
@@ -73,7 +71,6 @@ tr:nth-child(even) td {
     background-color: #eaeaea;
 }
 
-/* Formulário */
 .form {
     margin-top: 20px;
     display: flex;
@@ -99,7 +96,6 @@ input:focus, select:focus {
     border-color: #3498db;
 }
 
-/* Ícone de Calendário */
 .calendar-container {
     position: relative;
     display: flex;
@@ -118,7 +114,6 @@ input:focus, select:focus {
     font-size: 18px;
 }
 
-/* Botões */
 button {
     background: linear-gradient(135deg, #8e44ad, #3498db);
     color: white;
@@ -134,7 +129,6 @@ button:hover {
     background: linear-gradient(135deg, #732d91, #217dbb);
 }
 
-/* Botão de Remover */
 button.remover {
     background-color: #e74c3c;
     padding: 5px 10px;
@@ -147,7 +141,6 @@ button.remover:hover {
     background-color: #c0392b;
 }
 
-/* Responsividade */
 @media (max-width: 600px) {
     .form {
         flex-direction: column;
