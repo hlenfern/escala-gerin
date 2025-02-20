@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escala de Trabalho</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>📅 Escala de Trabalho</h2>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Turno</th>
+                    <th>Data</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody id="escala-body">
+                <!-- Itens da escala serão adicionados aqui -->
+            </tbody>
+        </table>
+
+        <h3>➕ Adicionar à Escala</h3>
+        <div class="form">
+            <input type="text" id="nome" placeholder="Nome">
+            <select id="turno">
+                <option value="" disabled selected>Escolha o Turno</option>
+                <option value="Manhã">Manhã</option>
+                <option value="Tarde">Tarde</option>
+                <option value="Noite">Noite</option>
+            </select>
+            
+            <div class="calendar-container">
+                <input type="date" id="data">
+                <i class="fas fa-calendar-alt"></i>
+            </div>
+
+            <button onclick="adicionarEscala()">Adicionar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
